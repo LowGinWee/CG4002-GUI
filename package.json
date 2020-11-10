@@ -9,7 +9,7 @@
   "license": "ISC",
   "engines": {
     "node": "12.17.x",
-    "npm":"6.11.3"
+    "npm": "6.11.3"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
