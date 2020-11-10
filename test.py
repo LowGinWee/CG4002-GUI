@@ -1,7 +1,7 @@
 import requests
 import paho.mqtt.client as mqtt
 import time
-url = "http://localhost:3000/rec/"
+url = "https://cg4002-gui.herokuapp.com/rec/"
 
 def on_message(client, userdata, message):
         msg = message.payload.decode("utf8")
@@ -20,5 +20,6 @@ client.on_message=on_message
 client.connect(serverUrl)
 base_topic = "ChiHenIsASexyBoi/1"
 client.subscribe(base_topic)
+test = input("Do simulation test?:[y]") == 'y'
 while True:
     mqtt_ser = client.loop()
