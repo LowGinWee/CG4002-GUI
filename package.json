@@ -1,0 +1,20 @@
+{
+  "name": "fast-dash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "12.17.x"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.2",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.1",
+    "utf-8-validate": "^5.0.3",
+    "ws": "^7.4.0"
+  }
+}
