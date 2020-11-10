@@ -8,9 +8,11 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "12.17.x"
+    "node": "12.17.x",
+    "npm":"6.11.3"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "bufferutil": "^4.0.2",
     "express": "^4.17.1",
     "socket.io": "^3.0.1",
